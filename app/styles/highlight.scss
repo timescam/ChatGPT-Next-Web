@@ -5,7 +5,7 @@
 
   pre,
   code {
-    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: "JetBrains Mono", "Sarasa Mono CL", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   }
 
   pre code {
@@ -18,98 +18,85 @@
     padding: 3px 5px;
   }
 
+  /* Dracula Theme v1.2.5
+ *
+ * https://github.com/dracula/highlightjs
+ *
+ * Copyright 2016-present, All rights reserved
+ *
+ * Code licensed under the MIT license
+ *
+ * @author Denis Ciccale <dciccale@gmail.com>
+ * @author Zeno Rocha <hi@zenorocha.com>
+ */
+
+  .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #282a36;
+  }
+
+  .hljs-built_in,
+  .hljs-selector-tag,
+  .hljs-section,
+  .hljs-link {
+    color: #8be9fd;
+  }
+
+  .hljs-keyword {
+    color: #ff79c6;
+  }
+
   .hljs,
-  pre {
-    background: #1a1b26;
-    color: #cbd2ea;
+  .hljs-subst {
+    color: #f8f8f2;
   }
 
-  /*!
-  Theme: Tokyo-night-Dark
-  origin: https://github.com/enkia/tokyo-night-vscode-theme
-  Description: Original highlight.js style
-  Author: (c) Henri Vandersleyen <hvandersleyen@gmail.com>
-  License: see project LICENSE
-  Touched: 2022
-*/
-  .hljs-comment,
-  .hljs-meta {
-    color: #565f89;
-  }
-
-  .hljs-deletion,
-  .hljs-doctag,
-  .hljs-regexp,
-  .hljs-selector-attr,
-  .hljs-selector-class,
-  .hljs-selector-id,
-  .hljs-selector-pseudo,
-  .hljs-tag,
-  .hljs-template-tag,
-  .hljs-variable.language_ {
-    color: #f7768e;
-  }
-
-  .hljs-link,
-  .hljs-literal,
-  .hljs-number,
-  .hljs-params,
-  .hljs-template-variable,
-  .hljs-type,
-  .hljs-variable {
-    color: #ff9e64;
-  }
-
-  .hljs-attribute,
-  .hljs-built_in {
-    color: #e0af68;
-  }
-
-  .hljs-keyword,
-  .hljs-property,
-  .hljs-subst,
   .hljs-title,
-  .hljs-title.class_,
-  .hljs-title.class_.inherited__,
-  .hljs-title.function_ {
-    color: #7dcfff;
-  }
-
-  .hljs-selector-tag {
-    color: #73daca;
-  }
-
-  .hljs-addition,
-  .hljs-bullet,
-  .hljs-quote,
-  .hljs-string,
-  .hljs-symbol {
-    color: #9ece6a;
-  }
-
-  .hljs-code,
-  .hljs-formula,
-  .hljs-section {
-    color: #7aa2f7;
-  }
-
   .hljs-attr,
-  .hljs-char.escape_,
-  .hljs-keyword,
-  .hljs-name,
-  .hljs-operator {
-    color: #bb9af7;
+  .hljs-meta-keyword {
+    font-style: italic;
+    color: #50fa7b;
   }
 
-  .hljs-punctuation {
-    color: #c0caf5;
+  .hljs-string,
+  .hljs-meta,
+  .hljs-name,
+  .hljs-type,
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-addition,
+  .hljs-variable,
+  .hljs-template-tag,
+  .hljs-template-variable {
+    color: #f1fa8c;
+  }
+
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-deletion {
+    color: #6272a4;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-literal,
+  .hljs-title,
+  .hljs-section,
+  .hljs-doctag,
+  .hljs-type,
+  .hljs-name,
+  .hljs-strong {
+    font-weight: bold;
+  }
+
+  .hljs-literal,
+  .hljs-number {
+    color: #bd93f9;
   }
 
   .hljs-emphasis {
     font-style: italic;
-  }
-
-  .hljs-strong {
-    font-weight: 700;
   }
 }
